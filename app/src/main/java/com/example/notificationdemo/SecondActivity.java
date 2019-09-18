@@ -12,7 +12,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         if (getIntent() != null) {
             Bundle bundle = getIntent().getExtras();
-            String s = bundle.getString("MSG");
+            String s = bundle.getString("ab");
         }
     }
 }
